@@ -1,0 +1,64 @@
+body {
+	font: 11px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+img {
+	border: none;
+}
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: fixed;
+	left: 0px;
+	z-index:2000000;
+}
+.dock-container2 {
+	position: fixed;
+	height: 50px;
+	background: url(../images/shelf.png);
+	padding-left: 20px;
+	width:100%;
+	left: 18px;
+	bottom:0px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #DDD; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border:none; 
+	margin: 5px 10px -5px; 
+	width: 100%;
+}
+#dock_right{ background: url(../images/right_shelf.png) no-repeat bottom;
+	float:right;
+    height: 130px;
+	display: block; 
+	width: 40px; 
+	color: #3F0; 
+	bottom: 0px; 
+	position: absolute;
+    height: 130px;
+	right:-35px;
+}
+#dock_left { background: url(../images/left_shelf.png) no-repeat bottom; 
+	display: block; 
+	width: 40px; 
+	color: #3F0; 
+	bottom: 0px; 
+	position: absolute;
+    height: 130px;
+	left:-35px;
+	}

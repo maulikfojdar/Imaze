@@ -1,0 +1,170 @@
+body {
+	font-family: arial,sans-serif;
+	font-size: 1em;
+	line-height: 1.6em;
+	
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ border-bottom: 1px dotted #fff;
+}
+
+a:visited{
+text-decoration: none;
+color: #fff;
+}
+	
+#header{
+	margin:auto;
+	background-image:url('../images/header_bg.jpg');
+	width:1024px;
+	height:201px;
+}
+.logo{
+	background-image:url('../images/portal_logo.png');
+	width:68px;
+	height:143px;
+	position:relative;
+	top:30px;
+	left: 900px;
+}
+.text1{	
+	position:relative;
+	top:0px;
+	left:550px;
+	font:Arial, Helvetica, sans-serif large ;
+	font-size:34px;
+	color:#FFF;
+}
+
+.text2{
+	position:relative;
+	top:-20px;
+	left:60px;
+	font:Arial, Helvetica, sans-serif large ;
+	font-size:14px;
+	color:#FFF;
+}
+
+#main_wrapper {
+	border-bottom: 1px solid #C3C4C1;
+	margin:auto;
+	height:600px;
+	width:1024px;
+}
+#main {
+	height:600px;
+	width:1024px;
+}
+#content_wrapper {
+	width: 772px; 
+	height: 600px;
+	background:#d2d2d2;
+	overflow: scroll;
+}
+
+#content p {
+	background: #666;
+	color: #fff;
+	font-weight:bold;
+	display:block;
+	padding: 5px 5px 5px 20px;
+	margin-top:10px;
+}
+
+.left,.alignleft {
+	float: left; 
+	height: 600px;
+	background:#8d8d8d;
+}
+
+.right,.alignright {
+	float: right;
+}
+/* Sidebar */
+
+.left #menu {width: 252px;}
+
+#menu ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+	
+#menu li{
+	width:252px;
+}
+#menu li a{
+	display:block;
+	background: url('../images/sprites_nav.jpg');
+	text-indent: -9999px;
+	width:252px;
+	overflow:hidden;
+}
+#menu li.register a{
+	width:252px;
+	background-position:0 0;
+	height:71px;
+}
+#menu li.events a{
+	width:252px;
+	background-position:0 -71px;
+	height:71px;
+}
+#menu li.review a{
+	width:252px;
+	background-position:0 71px;
+	height:71px;
+}
+
+
+#menu li.register a:hover{
+	width:252px;
+	background-position:-252px 0;
+	height:71px;
+}
+#menu li.events a:hover{
+	width:252px;
+	background-position:-252px -71px;
+	height:71px;
+}
+#menu li.review a:hover{
+	width:252px;
+	background-position:-252px 71px;
+	height:71px;
+}
+
+#menu li.register a.selected{
+	width:252px;
+	background-position:252px 0;
+	height:71px;
+}
+#menu li.events a.selected{
+	width:252px;
+	background-position:252px -71px;
+	height:71px;
+}
+#menu li.review a.selected{
+	width:252px;
+	background-position:252px 71px;
+	height:71px;
+}
+
+#content {
+	padding: 20px;
+
+}
+
+#loader_container {
+	width:100px;
+	height: 100px;
+	margin: 0px auto;
+	position: relative;
+	top: 170px;
+	visibility:hidden;
+}
+

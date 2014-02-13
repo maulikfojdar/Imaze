@@ -1,0 +1,144 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+	background: #d1d1d1 url("../images/bg.jpg") repeat-x;
+}
+
+.text:focus{
+	background:#fcfea9;
+	outline:none;
+	-moz-border-radius:30px;
+	border-radius:30px;
+	opacity:0.6;filter:alpha(opacity=60);
+}
+
+#container {
+	width:358px;
+    position: relative;
+	margin: 0px auto;
+	top:20px;
+}
+
+#titleContainer {
+ float:left;
+ position: relative;
+ top: 132px;
+ left: 10px;
+}
+
+#titleContainer  h2{
+ font-size: 1.8em;
+ font-weight: bold;
+}
+
+#logoContainer {
+	float:right;
+}
+
+
+#loginBox {
+	clear:both;
+        color: #555555;
+ 	position:relative;
+ 	margin:0px auto;
+        top: 7px;
+	background:#dddddd url(../images/loginBox.png) no-repeat;
+	width:358px;
+ 	height:240px;
+}
+
+#loginWrapper {
+    	position:relative;
+	top:10px;
+	margin:0px auto;
+    	width: 90%;
+    	height:90%;
+
+}
+
+#loginWrapper form {
+	height:100%;
+}
+
+
+#footer {
+	font-size: 9px;
+	position:absolute;
+	bottom:0px;
+	text-align: center;
+	width: 100%;
+}
+
+.textdiv
+{
+	float:right;
+ 	margin:10px 0px 23px 2px;
+	height:31px;
+	width:189px;
+	background:url(../images/textbox.png) no-repeat bottom;
+}
+
+.text
+{
+	background:none;
+	border:none;
+	width:170px;
+ 	height:19px;
+	margin-top:1px;
+	padding: 6px 7px 5px 13px;
+ 	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+.label1 {
+ width: 50px;
+ float: left;
+ position: absolute;
+ top: 37px;
+ left: 21px;
+ font-size:18px;
+}
+
+.label2 {
+ width: 50px;
+ float: left;
+ position: absolute;
+ top: 101px;
+ left: 18px; 
+ font-size:18px;
+}
+
+.myButton {
+ margin-right: 40px;
+ border: solid 1px #8e8e8e;
+ background-color: #b4b4b4;
+ color: white;
+ font-size: 14px;
+ width: 100px;
+ height: 40px;
+ cursor:pointer;
+ -moz-border-radius:30px;
+	border-radius:30px;
+}
+
+.buttonContainer {
+ position:absolute;
+ top: 160px;
+ left: 30px;
+ clear:both;
+}
+
+.msg {
+	text-align:center;
+	font-weight:bold;
+	color: #444;
+	font-size:18px;
+	position:relative;
+	top:10px;
+}
+
+
+
+
+
